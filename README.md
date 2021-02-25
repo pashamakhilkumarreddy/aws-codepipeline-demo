@@ -1,1 +1,1 @@
-# aws-codepipeline-demo
+# AWS CodePipeline Demo
