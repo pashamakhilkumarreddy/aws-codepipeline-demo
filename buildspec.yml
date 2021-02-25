@@ -7,9 +7,9 @@ phases:
     commands:
       - npm i
       - export BUCKET=test-bucket-codepipeline1
-      - aws cloudformation package --template-file template.yml --s3-bucket test-bucket-codepipeline1 --output-template-file output_template.yml
+      - aws cloudformation package --template-file template.yml --s3-bucket test-bucket-codepipeline1 --output-template-file outputtemplate.yaml
 artifacts:
   type: zip
   files:
     - template.yml
-    - outputtemplate.yml
+    - outputtemplate.yaml
